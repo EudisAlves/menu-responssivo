@@ -60,6 +60,7 @@ const MenuBar: React.FC = () => {
               <img src="./img/git.png" alt="ícone do git" id="g"/>
               Eudis Alves
               <img src="./img/github.png" alt="ícone do github" id="g"/>
+            
             </h3>
           </Typography>
           <Menu
