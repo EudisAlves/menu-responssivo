@@ -1,5 +1,6 @@
 
 import React, { useState } from 'react';
+import {Router, Link} from 'react-router-dom';
 import {
   AppBar,
   Toolbar,
@@ -69,7 +70,7 @@ const MenuBar: React.FC = () => {
             onClose={handleClose}
           >
             <MenuItem onClick={handleClose}>Profile</MenuItem>
-            <MenuItem onClick={handleClose}>My account</MenuItem>
+            <MenuItem onClick={handleClose}>GitHub</MenuItem>
             <MenuItem onClick={handleClose}>Logout</MenuItem>
           </Menu>
         </Toolbar>
